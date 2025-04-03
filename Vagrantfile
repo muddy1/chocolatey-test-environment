@@ -144,7 +144,7 @@ Write-Output "Testing package if a line is uncommented."
 # - uncomment one of the two and edit it appropriately
 # - See the README for details
 #choco.exe install -fdvy INSERT_NAME --version INSERT_VERSION  --allow-downgrade
-#choco.exe install -fdvy INSERT_NAME  --allow-downgrade --source "'c:\\packages;http://chocolatey.org/api/v2/'"
+#choco.exe install -fdvy INSERT_NAME  --allow-downgrade --source "'C:\chocolatey-test-environment\packages;http://chocolatey.org/api/v2/'"
 
 $exitCode = $LASTEXITCODE
 
