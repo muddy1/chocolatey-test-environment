@@ -1,8 +1,6 @@
 ﻿# Vagrant File (Vagrantfile)
 # http://docs.vagrantup.com/v2/vagrantfile/index.html
 
-ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
-
 # Windows guests can't even be used with Vagrant versions less than 1.3.5.
 Vagrant.require_version ">= 1.3.5"
 if Vagrant::VERSION < '1.6.0'
